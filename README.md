@@ -145,3 +145,7 @@ Bu proje **GitHub Actions** kullanılarak sürekli entegrasyon sürecine dahil e
 3.  Test kapsamı (Coverage) hesaplanıp **Codecov** servisine raporlanır.
 
 4.  Sonuçlar `README.md` dosyasındaki rozetlere (badges) yansıtılır.
+
+
+----------------------
+NOT: Codecov'da migrations'ları da dahil ettiği için yüzdelik dilimi düşük gözüküyor. Migrations hariç 292 satır kodun 192 satırını kapsıyor. Bu da yaklaşık %65'lik bir kapsamaya denk geliyor.
